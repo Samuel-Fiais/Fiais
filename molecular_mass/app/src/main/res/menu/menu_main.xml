@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/math"
+        android:title="Matemática">
+        <menu>
+            <item
+                android:id="@+id/menu_second_function"
+                android:title="@string/second_function"
+            />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/chemistry"
+        android:title="Quimica">
+        <menu>
+            <item
+                android:id="@+id/menu_molecular_mass"
+                android:title="@string/mass_molecule"
+            />
+        </menu>
+    </item>
+
+
+
+</menu>
